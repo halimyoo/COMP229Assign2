@@ -1,0 +1,8 @@
+/* Custom css goes here. */
+/* contact.css, Halim Yoo, 301155567, Oct 22, 2021*/
+
+@import "./css/about.css";
+@import "./css/project.css";
+@import "./css/services.css";
+@import "./css/contact.css";
+@import "./css/home.css";

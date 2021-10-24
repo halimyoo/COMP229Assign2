@@ -1,0 +1,137 @@
+/* contact.css, Halim Yoo, 301155567, Oct 22, 2021*/
+
+a:visited {
+  color : rgb(99, 99, 99);
+  text-decoration: none;
+}
+a:hover {
+  color : rgb(107, 141, 180);
+  text-decoration: none;
+}
+a:link {
+  color : rgb(103, 117, 143);
+  text-decoration: none;
+}
+
+
+p{
+  margin: 0;
+    padding: 50px 0;
+    color: #3d3d3d;
+    text-shadow: 5px 3px 1px rgb(199, 199, 199);
+    margin-left : 50px;
+    font-style: oblique;
+    font-size: 1.5cm;
+}
+
+.java{
+
+  height:200px;
+
+  width: 350px;
+
+  overflow: hidden;   
+
+  margin-left : 50px;
+  float: right;
+  margin-right : 50px;
+
+  }
+
+
+.java img{
+
+  height:100%;
+  width: 100%;
+  object-fit:cover;    
+  transform:scale(1.0);  
+  transition: transform .5s; 
+
+}
+
+.java img:hover{       
+  transform:scale(1.5);  
+  transition: transform .5s; 	
+
+}
+
+
+.project1 img:last-child{display:none;   }
+.project1:hover img:first-child{display:none; }
+.project1:hover img:last-child{display:inline-block;  width: 310px; height:300px;  }
+
+
+.project2 img:last-child{display:none;  }
+.project2:hover img:first-child{display:none;  }
+.project2:hover img:last-child{display:inline-block;  width: 340px; height:300px; }
+
+.project3 img:last-child{display:none;  }
+.project3:hover img:first-child{display:none;  }
+.project3:hover img:last-child{display:inline-block;  width: 340px; height:300px; }
+
+
+form {
+  margin: 10 auto;
+  float: right;
+  width: 400px;
+  margin-left: 100;
+
+  padding: 2em;
+  border: 1px solid #CCC;
+  border-radius: 2em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+
+  width: 300px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+  resize: vertical;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: .5em;
+  
+  border-color: #c9c9c9;
+  background-color: #91cdff;
+  font-style:initial;
+  border-radius: 10px;
+}
+
+p1{
+  margin: 70;
+  padding-left: 100px;
+  padding: 77px ;
+  color: #000000;
+  text-shadow: 5px 3px 1px rgb(199, 199, 199);
+  margin-left : 50px;
+  font-style: oblique;
+  font-size: 0.4cm;
+}
