@@ -24,22 +24,35 @@ Please install node_modules for running our application
   * Model
    * Survey.js 
    > Description: Create the model classes
-   * preview 
+ 
+ 
+ * Server
+  * Model
+   * User.js 
+   > Description: require modules for the User Model
+   > 
      ```js
-     const { ObjectId } = require('mongoose');
-let mongoose = require('mongoose');
+     let mongoose = require("mongoose");
+let passportLocalMongoose = require("passport-local-mongoose");
 
-let surveyModel = mongoose.Schema({
-    name: String,
-    owner: String,
-    user: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
-
+let user = mongoose.Schema(
+  {
+    username: {
+      type: String,
+      default: "",
+      trim: true,
+      required: "username is required",
     },
-    startDate: Date,
-    endDate: Date,
-    q1: String,
-    q1ans1: String,
-    q1ans2: String, ....
+ 
+    email: {
+      type: String,
+      default: "",
+      trim: true,
+      required: "email address is required",
+    },
+  },
+  {
+    collection: "users",
+  }
+);
      ```
