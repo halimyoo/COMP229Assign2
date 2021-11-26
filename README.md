@@ -53,3 +53,24 @@ Please install node_modules for running our application
        },
      );
      ```
+
+* Server
+  * Model
+   * Survey.js 
+   > Description: Create the model classes
+
+- - - 
+
+## Team members
+
+NAME|STDUENTID|EMAIL ADDRESS|POSITION
+---|---|---|---|
+Piraveen Udayakumar|301102696|pudayak1@my.centennialcollege.ca|Generalist Programmer|
+Yonas Berhane|301165447|yberhan1@my.centennialcollege.ca|Lead Software Engineer|
+Kyeongbin Noh|301130132|knoh1@my.centennialcollege.ca|UI programmer|
+Ulkar Zakaryayeva|301107604|uzakarya@my.centennialcollege.ca|Database Programmer|
+Halim Yoo|301155567|hyoo19@my.centennialcollege.ca|Project Manager|
+Syeda Maria|301184173|smanzoo6@my.centennialcollege.ca|Web Designer|
+
+
+
