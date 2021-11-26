@@ -30,7 +30,7 @@ Please install node_modules for running our application
   * Model
    * User.js 
    > Description: require modules for the User Model
-   > 
+   > Preview: 
      ```javascript
      let mongoose = require("mongoose");
      let passportLocalMongoose = require("passport-local-mongoose");
@@ -43,7 +43,6 @@ Please install node_modules for running our application
            trim: true,
            required: "username is required",
          },
-
          email: {
            type: String,
            default: "",
@@ -51,8 +50,5 @@ Please install node_modules for running our application
            required: "email address is required",
          },
        },
-       {
-         collection: "users",
-       }
      );
      ```
