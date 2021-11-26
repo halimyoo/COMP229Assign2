@@ -24,11 +24,11 @@ Please install node_modules for running our application
   * Model
    * Survey.js 
    > Description: Create the model classes
+   * preview 
      ```js
      const { ObjectId } = require('mongoose');
 let mongoose = require('mongoose');
 
-// create a model class
 let surveyModel = mongoose.Schema({
     name: String,
     owner: String,
@@ -41,5 +41,5 @@ let surveyModel = mongoose.Schema({
     endDate: Date,
     q1: String,
     q1ans1: String,
-    q1ans2: String, 
+    q1ans2: String, ....
      ```
