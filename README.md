@@ -31,28 +31,28 @@ Please install node_modules for running our application
    * User.js 
    > Description: require modules for the User Model
    > 
-     ```js
+     ```javascript
      let mongoose = require("mongoose");
-let passportLocalMongoose = require("passport-local-mongoose");
+     let passportLocalMongoose = require("passport-local-mongoose");
 
-let user = mongoose.Schema(
-  {
-    username: {
-      type: String,
-      default: "",
-      trim: true,
-      required: "username is required",
-    },
- 
-    email: {
-      type: String,
-      default: "",
-      trim: true,
-      required: "email address is required",
-    },
-  },
-  {
-    collection: "users",
-  }
-);
+     let user = mongoose.Schema(
+       {
+         username: {
+           type: String,
+           default: "",
+           trim: true,
+           required: "username is required",
+         },
+
+         email: {
+           type: String,
+           default: "",
+           trim: true,
+           required: "email address is required",
+         },
+       },
+       {
+         collection: "users",
+       }
+     );
      ```
