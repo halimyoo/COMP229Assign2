@@ -29,7 +29,7 @@ Please install node_modules for running our application
  * Server
   * Model
    * User.js 
-   > Description: require modules for the User Model
+   > Description: require modules for the User Model         
    > Preview: 
      ```javascript
      let mongoose = require("mongoose");
