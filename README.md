@@ -11,5 +11,35 @@ Please install node_modules for running our application
 
 * Server
   * Controllers
-   * Index-jsfile  
-   * Description: Survey web application that has full CRUD functionality using Express, Node.JS, MongoDB and EJS templating engine.
+   * Index.js
+   > Description: Functions of displaying the survey lists on home pg. Also, Login function and Display RegisterPage.
+
+
+* Server
+  * Config
+   * App.js 
+   > Description: Set up of Database, authentication, express session, view engine
+
+* Server
+  * Model
+   * Survey.js 
+   > Description: Create the model classes
+     ```js
+     const { ObjectId } = require('mongoose');
+let mongoose = require('mongoose');
+
+// create a model class
+let surveyModel = mongoose.Schema({
+    name: String,
+    owner: String,
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User"
+
+    },
+    startDate: Date,
+    endDate: Date,
+    q1: String,
+    q1ans1: String,
+    q1ans2: String, 
+     ```
