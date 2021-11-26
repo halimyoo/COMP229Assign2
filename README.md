@@ -30,7 +30,7 @@ Please install node_modules for running our application
   * Model
    * User.js 
    > Description: require modules for the User Model         
-   > Preview: 
+   > Preview:                        
      ```javascript
      let mongoose = require("mongoose");
      let passportLocalMongoose = require("passport-local-mongoose");
